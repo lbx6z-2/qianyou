@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,follow" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="play.css" />
+ 	  <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/jquery.js"></script>
+	  <script src="js/mediaelement-and-player.min.js"></script>
+    <title>前游</title>
+  </head>
+  <body class="play-page">
+    <div class="topbar">
+      <a href="index.html" class="main">
+        前游网
+      </a>
+      <div class="login">
+        <a href="#">注册</a>
+        /
+        <a href="#">登录</a>
+      </div>
+      <div class="item">
+        <a href="index.html">首页</a>
+        <a href="#">导游</a>
+        <a href="micro-film.html">微电影</a>
+        <a href="test-iframe.html">活动</a>
+        <a href="share.html">分享</a>
+      </div>
+      <div class="search">
+        <input type="text" style="border-radius: 5px;"/>
+        <input type="button" style="border-radius: 5px;" value="搜索"/>
+      </div>
+    </div>
+    <div class="play">
+      <div class="video">
+        <video width="800" height="550" poster="img/2.jpg">
+		      <source src="video/1.mp4" type="video/mp4">
+	      </video>
+      </div>
+      <div class="content" width="800" height="500">
+        <div class="operation">
+          <a class="like"></a>
+        </div>
+        <div class="share">
+        </div>
+        <div class="data">
+        </div>
+      </div>
+    </div>
+
+    <div class="comment">
+    </div>
+
+	<script>
+	$(document).ready(function() {
+		$('video').mediaelementplayer({
+			alwaysShowControls: false,
+			videoVolume: 'horizontal',
+			features: ['playpause','progress','volume','fullscreen']
+		});
+	});
+	</script>
+  </body>
+</html>

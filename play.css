@@ -1,0 +1,24 @@
+.play-page {
+  background: url(img/005.jpg);
+  background-attachment: fixed;
+  background-position: 80% 30%;
+  font-size: 22px;
+}
+
+.mejs-container { margin: 0 auto; }
+
+.play {
+  background: #222;
+  height: 550px;
+  width: 90%;
+  border: outset;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.video {
+  margin: auto;
+  height: 550px;
+  width: 100%;
+}
+

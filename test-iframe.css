@@ -1,0 +1,12 @@
+.test-iframe {
+  height: 550px;
+  width: 90%;
+  float: center;
+  border: outset;
+  margin: auto;
+  margin-top: 10px; }
+
+  .iframe {
+    margin: auto;
+    width: 100%;
+    height: 100%; }

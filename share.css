@@ -1,0 +1,80 @@
+.discuss-panel {
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 0px solid black;
+  width: 90%;
+  background: HoneyDew; }
+
+.column2 {
+  margin: 20px;
+  margin-left: 30px;
+  background: HoneyDew;
+  display: table; }
+
+  .discuss-panel .header {
+    width: 95%;
+    background: DarkKhaki;
+    border-style: outset;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 30px; }
+
+.diss-table {
+  vertical-align: middle;
+  display: table-cell;
+  width: 800px;
+  background: DarkKhaki;
+  border-collapse: collapse;
+  border: 0px solid black; }
+
+.personal {
+  float: right;
+  vertical-align: middle;
+  margin-left: 50px;
+  /*height: 800px;*/
+  display: table-cell;
+  border: 0px solid red;
+  width: 250px; }
+  
+  .personal img {
+    border: inset;
+    height: 170px;
+    width: 170px; }
+  .personal p {
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 22px; }
+
+tr, td, th {
+  font-size: 20px;
+  padding: 5px;
+  border-collapse: collapse;
+  border-bottom: outset; }
+
+tr {
+  height:70px;
+  border-spacing: 20px; }
+
+.num {
+  text-align: center;
+  width: 10%; }
+
+.number {
+  text-align: center;
+  padding: 2px; }
+
+.title {
+  width: 40%; }
+
+.user {
+  text-align: center;
+  width: 20%; }
+
+  .discuss-panel a[href] {
+    color: black;
+    text-decoration: none; }
+    .discuss-panel a[href]:hover, .discuss-panel a[href]:active {
+      color: DarkGreen; 
+    }
+
